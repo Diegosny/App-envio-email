@@ -1,0 +1,11 @@
+#App Send Email
+
+
+Caso de algum erro verifique o arquivo config.php
+
+$mail->Username = 'seuemail@gmail.com';
+$mail->Password = 'suasenha';
+
+$mail->setFrom('seuemail@gmail.com', 'Texto');
+
+OBS: É necessario que seu email esteja habilitado a função de "Acesso a app menos seguro"
